@@ -8,7 +8,6 @@ terraform {
 }
 
 provider "google" {
-  credentials = file("vaulted-tower-328114-30c908c528ad.json")
   project     = "vaulted-tower-328114"
   region      = "us-central1"
   zone        = "us-central1-c"
